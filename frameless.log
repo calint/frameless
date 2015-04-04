@@ -1,0 +1,180 @@
+
+
+
+
+window manager frameless  2015-04-03
+screen dimension: 1366 x 768
+/home/c/w/frameless/Debug/frameless() [0x40211c]
+/home/c/w/frameless/Debug/frameless() [0x4021f6]
+/usr/lib/x86_64-linux-gnu/libX11.so.6(_XError+0x11d) [0x7ffff7adf7ed]
+/usr/lib/x86_64-linux-gnu/libX11.so.6(+0x3b7e7) [0x7ffff7adc7e7]
+/usr/lib/x86_64-linux-gnu/libX11.so.6(+0x3b895) [0x7ffff7adc895]
+/usr/lib/x86_64-linux-gnu/libX11.so.6(_XReadEvents+0xfd) [0x7ffff7add36d]
+/usr/lib/x86_64-linux-gnu/libX11.so.6(XNextEvent+0x78) [0x7ffff7acccc8]
+/home/c/w/frameless/Debug/frameless() [0x403227]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf5) [0x7ffff76feec5]
+/home/c/w/frameless/Debug/frameless() [0x401109]
+!!! x11 error
+!!!       text: BadAccess (attempt to access private resource denied)
+!!!       type: 0
+!!! resourceid: 0x9c
+!!! error code: 10
+/home/c/w/frameless/Debug/frameless() [0x40211c]
+/home/c/w/frameless/Debug/frameless() [0x4021f6]
+/usr/lib/x86_64-linux-gnu/libX11.so.6(_XError+0x11d) [0x7ffff7adf7ed]
+/usr/lib/x86_64-linux-gnu/libX11.so.6(+0x3b7e7) [0x7ffff7adc7e7]
+/usr/lib/x86_64-linux-gnu/libX11.so.6(+0x3b895) [0x7ffff7adc895]
+/usr/lib/x86_64-linux-gnu/libX11.so.6(_XReadEvents+0xfd) [0x7ffff7add36d]
+/usr/lib/x86_64-linux-gnu/libX11.so.6(XNextEvent+0x78) [0x7ffff7acccc8]
+/home/c/w/frameless/Debug/frameless() [0x403227]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf5) [0x7ffff76feec5]
+/home/c/w/frameless/Debug/frameless() [0x401109]
+!!! x11 error
+!!!       text: BadAccess (attempt to access private resource denied)
+!!!       type: 0
+!!! resourceid: 0x9c
+!!! error code: 10
+/home/c/w/frameless/Debug/frameless() [0x40211c]
+/home/c/w/frameless/Debug/frameless() [0x4021f6]
+/usr/lib/x86_64-linux-gnu/libX11.so.6(_XError+0x11d) [0x7ffff7adf7ed]
+/usr/lib/x86_64-linux-gnu/libX11.so.6(+0x3b7e7) [0x7ffff7adc7e7]
+/usr/lib/x86_64-linux-gnu/libX11.so.6(+0x3b895) [0x7ffff7adc895]
+/usr/lib/x86_64-linux-gnu/libX11.so.6(_XReadEvents+0xfd) [0x7ffff7add36d]
+/usr/lib/x86_64-linux-gnu/libX11.so.6(XNextEvent+0x78) [0x7ffff7acccc8]
+/home/c/w/frameless/Debug/frameless() [0x403227]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf5) [0x7ffff76feec5]
+/home/c/w/frameless/Debug/frameless() [0x401109]
+!!! x11 error
+!!!       text: BadAccess (attempt to access private resource denied)
+!!!       type: 0
+!!! resourceid: 0x9c
+!!! error code: 10
+/home/c/w/frameless/Debug/frameless() [0x40211c]
+/home/c/w/frameless/Debug/frameless() [0x4021f6]
+/usr/lib/x86_64-linux-gnu/libX11.so.6(_XError+0x11d) [0x7ffff7adf7ed]
+/usr/lib/x86_64-linux-gnu/libX11.so.6(+0x3b7e7) [0x7ffff7adc7e7]
+/usr/lib/x86_64-linux-gnu/libX11.so.6(+0x3b895) [0x7ffff7adc895]
+/usr/lib/x86_64-linux-gnu/libX11.so.6(_XReadEvents+0xfd) [0x7ffff7add36d]
+/usr/lib/x86_64-linux-gnu/libX11.so.6(XNextEvent+0x78) [0x7ffff7acccc8]
+/home/c/w/frameless/Debug/frameless() [0x403227]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf5) [0x7ffff76feec5]
+/home/c/w/frameless/Debug/frameless() [0x401109]
+!!! x11 error
+!!!       text: BadAccess (attempt to access private resource denied)
+!!!       type: 0
+!!! resourceid: 0x9c
+!!! error code: 10
+/home/c/w/frameless/Debug/frameless() [0x40211c]
+/home/c/w/frameless/Debug/frameless() [0x4021f6]
+/usr/lib/x86_64-linux-gnu/libX11.so.6(_XError+0x11d) [0x7ffff7adf7ed]
+/usr/lib/x86_64-linux-gnu/libX11.so.6(+0x3b7e7) [0x7ffff7adc7e7]
+/usr/lib/x86_64-linux-gnu/libX11.so.6(+0x3b895) [0x7ffff7adc895]
+/usr/lib/x86_64-linux-gnu/libX11.so.6(_XReadEvents+0xfd) [0x7ffff7add36d]
+/usr/lib/x86_64-linux-gnu/libX11.so.6(XNextEvent+0x78) [0x7ffff7acccc8]
+/home/c/w/frameless/Debug/frameless() [0x403227]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf5) [0x7ffff76feec5]
+/home/c/w/frameless/Debug/frameless() [0x401109]
+!!! x11 error
+!!!       text: BadAccess (attempt to access private resource denied)
+!!!       type: 0
+!!! resourceid: 0x9c
+!!! error code: 10
+event: CreateNotify   win=0x9c
+event: ConfigureNotify   win=0x9c
+event: ClientMessage   win=0x1420e5b
+event: MapNotify   win=0x9c
+mapnotify     0x1420e5b
+   ignoredevent: UnmapNotify   win=0x9c
+unmapnotify   0x1420e5b   0x1420e5b
+   xwinfree   0x1420e5b
+! xwinfind  0x1420e5b
+! did not find window 0x1420e5bunmapnotify  .
+event: UnmapNotify   win=0x9c
+unmapnotify   0x1420e5b   0x1420e5b
+   xwinfree   0x1420e5b
+! xwinfind  0x1420e5b
+! did not find window 0x1420e5bunmapnotify  .
+event: UnmapNotify   win=0x9c
+unmapnotify   0x1420e5b   0x1420e5b
+   xwinfree   0x1420e5b
+! xwinfind  0x1420e5b
+! did not find window 0x1420e5bunmapnotify  .
+event: ConfigureNotify   win=0x9c
+event: ConfigureNotify   win=0x9c
+event: ConfigureNotify   win=0x9c
+event: ConfigureNotify   win=0x9c
+event: ConfigureNotify   win=0x9c
+event: ConfigureNotify   win=0x9c
+event: ConfigureNotify   win=0x9c
+event: ConfigureNotify   win=0x9c
+event: ConfigureNotify   win=0x9c
+event: ConfigureNotify   win=0x9c
+event: ConfigureNotify   win=0x9c
+event: ConfigureNotify   win=0x9c
+event: ConfigureNotify   win=0x9c
+event: ConfigureNotify   win=0x9c
+event: ConfigureNotify   win=0x9c
+event: ConfigureNotify   win=0x9c
+event: ConfigureNotify   win=0x9c
+event: ConfigureNotify   win=0x9c
+event: ConfigureNotify   win=0x9c
+event: ConfigureNotify   win=0x9c
+event: ConfigureNotify   win=0x9c
+event: ConfigureNotify   win=0x9c
+event: ConfigureNotify   win=0x9c
+event: ConfigureNotify   win=0x9c
+event: ConfigureNotify   win=0x9c
+event: ConfigureNotify   win=0x9c
+event: ConfigureNotify   win=0x9c
+event: ConfigureNotify   win=0x9c
+event: ConfigureNotify   win=0x9c
+event: ConfigureNotify   win=0x9c
+event: ConfigureNotify   win=0x9c
+event: ConfigureNotify   win=0x9c
+event: ConfigureNotify   win=0x9c
+event: ConfigureNotify   win=0x9c
+event: ConfigureNotify   win=0x9c
+event: ConfigureNotify   win=0x9c
+event: ConfigureNotify   win=0x9c
+event: ConfigureNotify   win=0x9c
+event: ConfigureNotify   win=0x9c
+event: ConfigureNotify   win=0x9c
+event: ConfigureNotify   win=0x9c
+event: ConfigureNotify   win=0x9c
+event: ConfigureNotify   win=0x9c
+event: ConfigureNotify   win=0x9c
+event: ConfigureNotify   win=0x9c
+event: ConfigureNotify   win=0x9c
+event: ConfigureNotify   win=0x9c
+event: ConfigureNotify   win=0x9c
+event: ConfigureNotify   win=0x9c
+event: ConfigureNotify   win=0x9c
+event: ConfigureNotify   win=0x9c
+event: ConfigureNotify   win=0x9c
+event: ConfigureNotify   win=0x9c
+event: ConfigureNotify   win=0x9c
+event: ConfigureNotify   win=0x9c
+event: ConfigureNotify   win=0x9c
+event: ConfigureNotify   win=0x9c
+event: ConfigureNotify   win=0x9c
+event: ConfigureNotify   win=0x9c
+event: ConfigureNotify   win=0x9c
+event: ClientMessage   win=0x1420e5b
+event: ConfigureNotify   win=0x9c
+event: MapNotify   win=0x9c
+mapnotify     0x1420e5b
+   ignoredevent: UnmapNotify   win=0x9c
+unmapnotify   0x1420e5b   0x1420e5b
+   xwinfree   0x1420e5b
+! xwinfind  0x1420e5b
+! did not find window 0x1420e5bunmapnotify  .
+event: UnmapNotify   win=0x9c
+unmapnotify   0x1420e5b   0x1420e5b
+   xwinfree   0x1420e5b
+! xwinfind  0x1420e5b
+! did not find window 0x1420e5bunmapnotify  .
+event: UnmapNotify   win=0x9c
+unmapnotify   0x1420e5b   0x1420e5b
+   xwinfree   0x1420e5b
+! xwinfind  0x1420e5b
+! did not find window 0x1420e5bunmapnotify  .

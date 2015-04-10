@@ -576,7 +576,7 @@ int main(int argc,char**args){
 			case 113://left
 				focusprev();
 				break;
-			case 28://t
+			case 29://y
 			case 114://right
 				focusnext();
 				break;

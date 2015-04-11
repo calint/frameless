@@ -1,4 +1,4 @@
-#define APP "window manager frameless  2015-04-03"
+#define APP "window manager frameless"
 #include<X11/Xlib.h>
 #include<X11/cursorfont.h>
 #include<stdlib.h>
@@ -31,7 +31,7 @@ static struct screen{
 //static int scr_w=0;
 //static int scr_h=0;
 static unsigned int key=0;
-static int winslip=7;
+static const int winslip=7;
 static xwin*winfocused=NULL;
 static int dragging=0;
 static char*ix_evnames[LASTEvent]={

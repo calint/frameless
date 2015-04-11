@@ -45,25 +45,6 @@ static char*ix_evnames[LASTEvent]={
 };
 
 static xwin*xwinget(Window w){
-//	fprintf(flog,"! xwinget  %p\n",(void*)w);fflush(flog);
-//	if(w==0){
-//		fprintf(flog,"! is null\n");fflush(flog);
-//		return NULL;
-//	}
-//	if(w==root){
-//		fprintf(flog," ? winget root\n");
-//		fflush(flog);
-//	}
-//	char*name;
-//	if(!XFetchName(dpy,w,&name)){
-//		fprintf(flog,"xwinget: can not fetch name on  %p\n",(void*)w);
-//		fflush(flog);
-//		return NULL;
-//	}else{
-//		fprintf(flog,"xwinget %s\n",name);
-//		fflush(flog);
-//	}
-
 	int n;
 	xwin*xw=NULL;
 	int firstavail=-1;
@@ -253,25 +234,6 @@ static int _focustry(int k){
 	xwin*w=&wins[k];
 	if((w->bits&1)&&(w->desk==dsk)){
 		fprintf(flog,"     focustry %p\n",(void*)w->w);
-//		if(w->w==root){
-//			fprintf(flog,"                is root  skipped\n");
-//			fflush(flog);
-//			return 0;
-//		}
-//		XWindowAttributes xwinattr;
-//		if(!XGetWindowAttributes(dpy,w->w,&xwinattr)){
-//			fprintf(flog,"                can not retrieve attributes  skipped\n");
-//			fflush(flog);
-//			return 0;
-//		}
-//		char*name;
-//		if(!XFetchName(dpy,w->w,&name)){
-//			fprintf(flog,"focustry on window %p   skipped, no name\n",(void*)(w->w));
-//			fflush(flog);
-//			return 0;
-//		}
-//		fprintf(flog,"focustry found %d   %s\n",k,name);
-//		fflush(flog);
 		xwinraise(w);
 		xwinfocus(w);
 		return 1;

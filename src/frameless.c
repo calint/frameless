@@ -18,6 +18,7 @@ typedef struct{
 	unsigned char bits;// bit 1 means allocated
 }xwin;
 #define xwinsct 128
+#define border_width 1
 static xwin wins[xwinsct];
 static FILE*flog;
 static Display*dpy;
@@ -174,12 +175,12 @@ static void xwinclose(xwin*this){
 	XSendEvent(dpy,this->w,False,NoEventMask,&ke);
 }
 static void xwintogglefullscreen(xwin*this){
-	if((this->vh&3)==3){
+	if((this->vh&3)==3){// toggle from fullscreen
 		xwingeomset(this,this->gx,this->gy,this->gw,this->gh);
 		this->vh=0;
-	}else{
+	}else{// toggle to fullscreen
 		xwingeom(this);
-		xwingeomset(this,0,0,scr.wi,scr.hi);
+		xwingeomset(this,-border_width,-border_width,scr.wi,scr.hi);
 		this->vh=3;
 	}
 }
@@ -191,7 +192,7 @@ static void xwintogglefullheight(xwin*this){
 		xwingeomset(this,this->gx,gy,this->gw,gh);
 	}else{
 		xwingeom(this);
-		xwingeomset(this,this->gx,0,this->gw,scr.hi);
+		xwingeomset(this,this->gx,-border_width,this->gw,scr.hi);
 	}
 	this->vh^=1;
 }
@@ -203,7 +204,7 @@ static void xwintogglefullwidth(xwin*this){
 		xwingeomset(this,gx,this->gy,gw,this->gh);
 	}else{
 		xwingeom(this);
-		xwingeomset(this,0,this->gy,scr.wi,this->gh);
+		xwingeomset(this,-border_width,this->gy,scr.wi,this->gh);
 	}
 	this->vh^=2;
 }
@@ -306,8 +307,6 @@ static void deskshow(int dsk,int dskprv){
 		if(xw->desk==dsk)
 			xwinshow(xw);
 	}
-}
-static void mixermastervoltogglemute(){
 }
 static void desksave(int dsk,FILE*f){
 	int n=0;
@@ -470,6 +469,7 @@ int main(int argc,char**args){
 //					fprintf(flog,"screenshot rect: %d\n",r);
 //					fflush(flog);
 //					exit(r);
+					fprintf(flog,"exec scrot -s\n");
 					int r=execlp("scrot","-s",NULL);
 					fprintf(flog," after exec:  %d\n",r);
 					fflush(flog);
@@ -551,7 +551,7 @@ int main(int argc,char**args){
 				desksave(dsk,flog);
 				break;
 			case 72://toggle mute
-				mixermastervoltogglemute();
+				system("xii-vol-toggle");
 				break;
 			case 68:// F2   screen brightness down
 				system("xii-decrease-screen-brightness");
@@ -584,7 +584,7 @@ int dskprv;//? weirddeclarelocation
 					}
 				deskshow(dsk,dskprv);
 				break;
-			case 40://d			
+			case 40://d
 			case 116://down
 				dskprv=dsk;
 				dsk--;
@@ -623,11 +623,11 @@ XButtonEvent buttonevstart;//? decllocation
 			int ny=xw->gy+ydiff;
 			int nh=xw->gh+ydiff;
 			if(xw->vh&2){
-				nx=0;
+				nx=-border_width;
 				nw=scr.wi;
 			}
 			if(xw->vh&1){
-				ny=0;
+				ny=-border_width;
 				nh=scr.hi;
 			}
 			switch(key){

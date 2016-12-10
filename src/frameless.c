@@ -1,3 +1,6 @@
+// todo: when window dimensions equal screen dimensions consider window maximized
+
+
 #define APP "window manager frameless"
 #include<X11/Xlib.h>
 #include<X11/cursorfont.h>
